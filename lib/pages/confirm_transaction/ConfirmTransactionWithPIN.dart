@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mysacco/data/models/ModelConfirmation.dart';
 import 'package:mysacco/pages/confirm_transaction/TransactionResult.dart';
 import 'package:mysacco/utils/constants/Constants.dart';
-import 'package:mysacco/utils/widgets/appBar/AppBar.dart';
+import 'package:mysacco/utils/widgets/appbar/AppBar.dart';
 import 'package:mysacco/utils/widgets/dialogs/Dialogs.dart';
 
 typedef ActionCallBack = void Function(Key key);

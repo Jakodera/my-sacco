@@ -11,6 +11,7 @@ import 'package:mysacco/utils/storage/Storage.dart';
 import 'package:mysacco/utils/widgets/appbar/AppBar.dart';
 import 'package:mysacco/utils/widgets/forms/Button.dart';
 
+// ignore: must_be_immutable
 class AccountStatement extends StatefulWidget {
   Storage storage;
   PageMetaData metaData;
@@ -85,7 +86,7 @@ fnCreatePageMetadataXML(Storage storage) {
         try {
             String strXML = fnCreatePageMetadataXML(storage);
 
-            FormData formData = new FormData.fromMap({
+            FormData formData = new FormData.from({
                 "data": strXML,
             });
 

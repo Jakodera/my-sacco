@@ -12,7 +12,7 @@ import 'package:mysacco/utils/configuration/Configuration.dart';
 import 'package:mysacco/utils/constants/Constants.dart';
 import 'package:mysacco/utils/data_sanitization/MobileNumbers.dart';
 import 'package:mysacco/utils/storage/Storage.dart';
-import 'package:mysacco/utils/widgets/appBar/AppBar.dart';
+import 'package:mysacco/utils/widgets/appbar/AppBar.dart';
 import 'package:mysacco/utils/widgets/dialogs/Dialogs.dart';
 import 'package:mysacco/utils/widgets/forms/Button.dart';
 import 'package:permission_handler/permission_handler.dart';
@@ -309,7 +309,7 @@ class LoginController extends State {
     try {
       print('XML: ' + theXML);
 
-      FormData formData = new FormData.fromMap({
+      FormData formData = new FormData.from({
         "data": theXML,
       });
 

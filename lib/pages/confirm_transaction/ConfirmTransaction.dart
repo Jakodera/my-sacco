@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mysacco/data/models/ModelConfirmation.dart';
 import 'package:mysacco/data/models/ModelUser.dart';
 import 'package:mysacco/utils/constants/Constants.dart';
-import 'package:mysacco/utils/widgets/appBar/AppBar.dart';
+import 'package:mysacco/utils/widgets/appbar/AppBar.dart';
 import 'package:mysacco/utils/widgets/forms/Button.dart';
 import 'package:mysacco/utils/widgets/text/TextTitle.dart';
 

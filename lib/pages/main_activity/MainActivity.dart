@@ -265,7 +265,7 @@ class HomeScreenController {
     });
     var strLogoutXML = builder.build().toString();
 
-    FormData formData = new FormData.fromMap({
+    FormData formData = new FormData.from({
       "data": strLogoutXML,
     });
     await Dio().post(Configurations.POST_URL, data: formData);

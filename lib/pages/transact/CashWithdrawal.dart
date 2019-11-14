@@ -270,7 +270,7 @@ class _CashWithdrawalState extends State<CashWithdrawal> {
         try {
             String strXML = fnCreatePageMetadataXML(storage);
 
-            FormData formData = new FormData.fromMap({
+            FormData formData = new FormData.from({
                 "data": strXML,
             });
 

@@ -10,12 +10,13 @@ import 'package:mysacco/data/models/ModelUser.dart';
 import 'package:mysacco/pages/main_activity/MainActivity.dart';
 import 'package:mysacco/utils/configuration/Configuration.dart';
 import 'package:mysacco/utils/constants/Constants.dart';
-import 'package:mysacco/utils/widgets/appBar/AppBar.dart';
+import 'package:mysacco/utils/widgets/appbar/AppBar.dart';
 import 'package:mysacco/utils/widgets/dialogs/Dialogs.dart';
 import 'package:mysacco/utils/widgets/forms/Button.dart';
 import 'package:mysacco/utils/widgets/text/TextTitle.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:xml/xml.dart' as xml;
+import 'dart:io';
 
 class Activation extends StatefulWidget {
   final ActivationModel activation;
@@ -236,7 +237,7 @@ class ActivationController {
 
   static void makePostRequest(
       String theXML, BuildContext theBuildContext) async {
-    FormData formData = new FormData.fromMap({
+    FormData formData = new FormData.from({
       "data": theXML,
     });
 

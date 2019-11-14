@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mysacco/data/models/ModelUser.dart';
 import 'package:mysacco/utils/configuration/Configuration.dart';
 import 'package:mysacco/utils/constants/Constants.dart';
-import 'package:mysacco/utils/widgets/appBar/AppBar.dart';
+import 'package:mysacco/utils/widgets/appbar/AppBar.dart';
 
 class Login extends StatefulWidget {
     @override

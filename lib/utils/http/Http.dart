@@ -4,7 +4,7 @@ import '../configuration/Configuration.dart';
 
 class HTTP {
     static Future<String> post(String theXML) async {
-        FormData formData = new FormData.fromMap({
+        FormData formData = new FormData.from({
             "data": theXML,
         });
 
